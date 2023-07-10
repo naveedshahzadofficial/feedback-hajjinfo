@@ -1,0 +1,162 @@
+@font-face {
+    font-family: JNN_regular;
+    src: url('../fonts/JNN_Regular.ttf') format('truetype');
+}
+
+.cover {
+    margin: 0;
+    padding: 0;
+    background: #eee;
+    font-family: JNN_regular;
+}
+
+.cover a {
+    text-decoration: none;
+    color: #fff;
+    font-family: JNN_regular;
+}
+
+.btn-primary,
+.next-btn,
+.previous-btn {
+    font-family: 'JNN_regular', serief;
+    background-color: #2a9d8f;
+    border: 1px solid #2a9d8f;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.previous-btn {
+    background-color: #ced4da;
+    border: 1px solid #ced4da;
+    color: #000;
+}
+
+.cover .btn-primary:hover {
+    color: #fff;
+    outline: 1px solid #FFF;
+    background-color: #00b4d8;
+}
+
+.btn-list .btn-primary {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.dropdown select .dropdown-menu .dropdown-item {
+    background-color: #2a9d8f;
+    border: 1px solid #2a9d8f;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.btn-sec {
+    background: #006494;
+}
+
+.heading-sec {
+    margin: 0 auto;
+    position: relative;
+}
+
+.heading-sec .h5 {
+    font-size: 1.3rem;
+    font-family: 'JNN_regular', serif;
+    word-spacing: 2px;
+}
+
+#side_bar {
+    background: #006494;
+    max-width: 330px;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nav .active {
+    outline: 1px solid #fff;
+}
+
+.nav-items .btn:hover {
+    outline: 1px solid #fff;
+}
+
+.tab-content {
+    background: #edf2f4;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.feedback-sec {
+    font-family: 'JNN_regular';
+}
+
+.btn-group .btn {
+    font-family: 'JNN_regular', sans-serif;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+}
+
+.header-box .btn .bi {
+    font-size: 2rem;
+}
+
+.sidebar .nav li {
+    background: #f4f3ee;
+    font-size: 1.2rem;
+    font-family: 'JNN_regular', serif;
+    color: #000;
+    border-color: #fff;
+    border-radius: 0.5rem;
+    line-height: 1.7;
+}
+
+.sidebar .nav li .active,
+.sidebar .nav li:hover button {
+    background-color: #0a9396;
+    transition: all 1s;
+    color: #fff;
+    border-color: #0a9396;
+    border-radius: 0.5rem;
+}
+
+form {
+    font-family: 'JNN_regular', serif;
+}
+
+form label,
+input {
+    text-align: right;
+}
+.nxt-prev-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.table-bordered td, .table-bordered th {
+    text-align: right;
+}
+.cover {
+    overflow: hidden;
+}
+.msg-wrap {
+    width: 100%;
+    text-align: center;
+}
+/* @media only screen and (max-width: 600px) {
+    #side_bar {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+} */
+@media only screen and (max-width: 600px) {
+    #side_bar {
+       display: none;
+    }
+}
